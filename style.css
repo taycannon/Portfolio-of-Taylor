@@ -1,19 +1,19 @@
 .flex {
     display: flex;
 }
-/* Reset some default styles */
+/* Reseting default styles */
 body, h1, h2, p {
     margin: 0;
     padding: 0;
 }
 
-/* Apply a background color and font for the body */
+/* Applied a background color and font for the body */
 body {
     font-family: Arial, sans-serif;
     background-color: white;
 }
 
-/* Style the header section */
+/* The header section styling */
 header {
     background-color: black;
     color: white;
@@ -22,7 +22,6 @@ header {
     
 }
 
-/* Style the page title */
 .header h1 {
     margin: auto;
     padding: auto;
@@ -33,7 +32,7 @@ header h1 {
     
 }
 
-/* Style the navigation menu */
+/* The navigation menu */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -45,7 +44,7 @@ nav ul li {
     margin-right: 15px;
 }
 
-/* Style the main content section */
+/* The main content section */
 main {
     max-width: 800px;
     background-color: white;
@@ -72,10 +71,32 @@ h2 {
 }
 
 #work {
-   
+    display: flex;
+    align-items: flex-start;
+
 }
 
-/* Style paragraph text */
+#work div:first-child {
+    width: 200px;
+    padding-right: 20px;
+    
+}
+/* The styling for the projects! */
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 10px;
+}
+
+
+.work-item {
+    text-align: right;
+    padding: 5px;
+
+}
+
+/* styled paragraph text */
 p {
     color: black;
     line-height: 2;
@@ -88,10 +109,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: blue;
+    color: lightpink;
 }
 
-/* Style project links in Work */
+/* Style for project links in Work */
 ul li a {
     color: lightcoral;
     text-decoration: none;

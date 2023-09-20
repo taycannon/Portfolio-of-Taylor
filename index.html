@@ -4,71 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taylor's Portfolio</title>
-    <link rel="stylesheet" href="./reset style.css">
+    <link rel="stylesheet" href="./reset-style.css"> 
     <link rel="stylesheet" href="./style.css">
-    
 </head>
 <body>
     <header>
         <h1 class="page-title">Taylor Cannon Portfolio</h1>
-         <nav>
+        <nav>
             <ul>
-                <li><a href="#about"></a>About Me</li>
-                <li><a href="#work"></a>Work</li>
-                <li><a href="#contact"></a>Contact</li>
-                <li><a href="#resume"></a>Resume</li>
+                <!-- I fixed link text & the anchor tags -->
+                <li><a href="#about">About Me</a></li> 
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume">Resume</a></li>
             </ul>
-         </nav>
+        </nav>
     </header>
 
     <main>
-    <!--Everything under this section is the main core of the website-->
         <section id="about">
             <h2>About Me</h2>
-            <p>Random Text for now</p>
+            <p>My name is Taylor Cannon. I am a motivated, highly focused, and responsible young woman with a strong work ethic and positive attitude. 
+                QUALIFICATIONS: skilled in effective and persuasive communication, both orally and in writing. A team player with good mediation skills and problem-solving. Also excels in science and mathematics.
+            </p>
         </section>
 
-        <section class="flex" id="work">
-            <div>
-                <h2>Work</h2>
+        <section id="work">
+            <h2>Work</h2>
+            <!-- Added work items here-->
+            <div class="work-item">
+                <h3>Refactoring Project </h3>
+                <p>This was my first ever project that I had made.</p>
+                <a href="https://github.com/taycannon/refactored-marketing">View Details</a>
             </div>
-            <div>
-                <div class="row">
-                    <div>
-                        card
-                    </div>
-                </div>
-                <div class="flex row">
-                    <div>
-                        card
-                    </div>
-                    <div>
-                        card
-                    </div>
-                </div>
-                <div class="flex row">
-                    <div>card</div>
-                    <div>card</div>
-                </div>
+            <div class="work-item">
+                <h3>Tic-Tac-Toe Project</h3>
+                <p>This is a tic-tac-toe app I have made.</p>
+                <a href="https://github.com/taycannon/tic-tac-toe-app">View Details</a>
             </div>
-
-            <!-- <h2>Work</h2>
-            <p>Random Text for now</p>
-    Link to all my work so far
-    <a href="refactored-marketing"></a> -->
         </section>
 
         <section id="contact">
             <h2>Contact</h2>
-            <p>Reach out to me any time!</p>
-            <p>Email: taycannon2003@gmail.com</p>
-            <p>Phone 773.842.8163</p>
+            <p>Feel free to reach out to me!</p>
+            <!-- Added a email link -->
+            <p>Email: <a href="mailto:taycannon2003@gmail.com">taycannon2003@gmail.com</a></p>
+            <!-- Added a telephone link -->
+            <p>Phone: <a href="tel:7738428163">773.842.8163</a></p> 
         </section>
 
         <section id="resume">
             <h2>Resume</h2>
-    <!--Previous work expericnce-->
-            <p>Here is a summary of my work experience</p>
+            <p>N/A</p>
         </section>
     </main>
 
